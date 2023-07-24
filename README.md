@@ -1,1 +1,1 @@
-echo 0x00. C - Hello, World
+Hello World
