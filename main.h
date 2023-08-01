@@ -1,12 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-<<<<<<< HEAD
-int _putchar(char c);
-void print_alphabet(void);
-
-#endif
-=======
 #include <stdio.h>
 #include <unistd.h>
 
@@ -23,5 +17,3 @@ void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 
 #endif
-
->>>>>>> fd6eb1d6f734823da631d60f25e5e34584d9c49e
