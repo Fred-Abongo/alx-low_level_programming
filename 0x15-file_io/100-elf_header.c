@@ -7,10 +7,10 @@
 #include <stdlib.h>
 
 /**
- * close_elf - Closes an ELF file.
- * @elf: The file descriptor of the ELF file.
+ * close_elf - Closes the ELF file.
+ * @elf: File descriptor of the ELF file.
  *
- * Description: If the file cannot be closed - exit code 98.
+ * Description: If  file cannot be closed - exit code 98.
  */
 void close_elf(int elf)
 {
