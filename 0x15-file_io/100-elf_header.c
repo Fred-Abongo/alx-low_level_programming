@@ -11,7 +11,7 @@ void print_elf_info(Elf64_Ehdr *header);
 void close_elf(int elf);
 
 /**
- * check_elf - Checks if the file is an ELF file.
+ * check_elf - Checks if a file is an ELF file.
  * @e_ident: Pointer to an array containing the ELF magic numbers.
  *
  * Description: If the file is not an ELF file, exit with code 98.
@@ -35,7 +35,7 @@ void check_elf(unsigned char *e_ident)
 
 /**
  * print_elf_info - Prints various information from the ELF header.
- * @header: Pointer to an ELF header structure.
+ * @header: Pointer to the ELF header structure.
  */
 void print_elf_info(Elf64_Ehdr *header)
 {
@@ -75,8 +75,8 @@ void print_elf_info(Elf64_Ehdr *header)
 }
 
 /**
- * close_elf - Closes the ELF file.
- * @elf: The file descriptor of an ELF file.
+ * close_elf - Closes an ELF file.
+ * @elf: File descriptor of the ELF file.
  *
  * Description: If the file cannot be closed, exit with code 98.
  */
